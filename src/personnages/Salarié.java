@@ -5,8 +5,8 @@ public class Salarié extends Humain {
 	private int echelon=0;
 	
 	//constructeur
-	public Salarié(int age, String nom, String prenom) {
-		super(age, nom, prenom);
+	public Salarié(int age, String nom, String prenom,int argent) {
+		super(age, nom, prenom,argent);
 		// TODO Auto-generated constructor stub
 	}
 	

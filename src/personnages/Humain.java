@@ -8,11 +8,12 @@ public class Humain {
 	protected int argent;
 	
 	//constructeur
-	public Humain(int age, String nom, String prenom) {
+	public Humain(int age, String nom, String prenom,int argent) {
 		super();
 		this.age = age;
 		this.nom = nom;
 		this.prenom = prenom;
+		this.argent=argent;
 	}
 	
 	//methode
@@ -29,7 +30,10 @@ public class Humain {
 		return prenom;
 	}
 
-	
+	public int getArgent() {
+		return argent;
+	}
+
 	private void direBonjour() {
 		System.out.println("Bonjour!");
 	}
