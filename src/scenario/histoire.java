@@ -12,7 +12,12 @@ public class histoire {
 		Produit produit=new Produit("Bonbon",123,2);
 		magasin.ajouterProduit(produit);
 		fstclient.achatProd(magasin, produit);
-		System.out.println(fstclient.getArgent());
+		System.out.println("N° client 1:"+fstclient.getNumClient());
+		Client scndClient=new Client(19,"Julie","MAUJOIN",32);
+		Produit produit2=new Produit("Chaussettes",1234,3);
+		magasin.ajouterProduit(produit2);
+		scndClient.achatProd(magasin, produit2);
+		System.out.println("N°Client 2:"+scndClient.getNumClient());
 	}
 
 }

@@ -15,7 +15,7 @@ public class Magasin {
 	//methode
 	public int nouvClients() {
 		nombreClient+=1;
-		return nombreClient-1;
+		return (nombreClient);
 	}
 	
 	public void ajouterProduit(Produit prodAAjouter) {
