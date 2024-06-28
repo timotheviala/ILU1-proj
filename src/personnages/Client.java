@@ -26,7 +26,9 @@ public class Client extends Humain {
 		}
 	}
 	
-	public void achatProd(Magasin magasin,Produit produit) {
+	public void achatProd(Magasin magasin,Produit produit,Salarié salarie) {
+	    salarie.direBonjour();
+	    this.direBonjour();
 		for (int i=0;i<=magasin.getNbProduit();i++) {
 			if(produit==magasin.getProduits()[i]) {
 				this.argent=this.argent-magasin.getProduits()[i].getPrix();

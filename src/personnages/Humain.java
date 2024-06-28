@@ -34,7 +34,7 @@ public class Humain {
 		return argent;
 	}
 
-	private void direBonjour() {
+	protected void direBonjour() {
 		System.out.println("Bonjour!");
 	}
 	

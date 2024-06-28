@@ -26,20 +26,21 @@ public class Salarié extends Humain {
 	}
 	
 	public void paieMois() {
-		switch (echelon) {
+		switch (0) {
 		case 0: {
-			
-			argent+=1399;
+			this.argent+=1399;
+			break;
 		}
 		case 1:{
-			argent+=1500;
+			this.argent+=1500;
+			break;
 		}
 		case 2:{
-			argent+=2000;
+			this.argent+=2000;
+			break;
 		}
 		default:
-			System.out.println("Erreur");;
+			System.out.println("Erreur echelon");;
 		}
-	
 	}
 }
